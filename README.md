@@ -40,7 +40,15 @@ To get started with MediVirtuoso ChatBot, follow these steps:
     pip install -r requirements.txt
     ```
 
-5. Run the chatbot:
+5. Configure environment variables
+    ```
+    Rename `.env-sample` to `.env` file
+    Replace the API your Google API Key, 
+    ```
+    Kindly follow refer to this site for getting [your own key](https://ai.google.dev/tutorials/setup)
+    <br/>
+
+6. Run the chatbot:
 
     ```bash
     streamlit run MediVirtuoso.py
